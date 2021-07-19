@@ -11,6 +11,12 @@
 		50A3E11C26A31FC1000C69B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3E11B26A31FC1000C69B7 /* ContentView.swift */; };
 		50A3E11E26A31FC1000C69B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A3E11D26A31FC1000C69B7 /* Assets.xcassets */; };
 		50A3E12126A31FC1000C69B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50A3E12026A31FC1000C69B7 /* Preview Assets.xcassets */; };
+		50A3E13526A33D6F000C69B7 /* SexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3E13426A33D6F000C69B7 /* SexView.swift */; };
+		50A3E13926A3401C000C69B7 /* FemaleData.json in Resources */ = {isa = PBXBuildFile; fileRef = 50A3E13826A3401C000C69B7 /* FemaleData.json */; };
+		50A3E13C26A341AE000C69B7 /* HockeyMatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3E13B26A341AE000C69B7 /* HockeyMatch.swift */; };
+		50A3E14026A5CFCF000C69B7 /* myData.json in Resources */ = {isa = PBXBuildFile; fileRef = 50A3E13F26A5CFCF000C69B7 /* myData.json */; };
+		50A3E14226A5CFF6000C69B7 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3E14126A5CFF6000C69B7 /* UserData.swift */; };
+		50A3E14426A5E534000C69B7 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3E14326A5E534000C69B7 /* DataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		50A3E11D26A31FC1000C69B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50A3E12026A31FC1000C69B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50A3E12226A31FC1000C69B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50A3E13426A33D6F000C69B7 /* SexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexView.swift; sourceTree = "<group>"; };
+		50A3E13826A3401C000C69B7 /* FemaleData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FemaleData.json; sourceTree = "<group>"; };
+		50A3E13B26A341AE000C69B7 /* HockeyMatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HockeyMatch.swift; sourceTree = "<group>"; };
+		50A3E13F26A5CFCF000C69B7 /* myData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myData.json; sourceTree = "<group>"; };
+		50A3E14126A5CFF6000C69B7 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		50A3E14326A5E534000C69B7 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +64,18 @@
 		50A3E11826A31FC1000C69B7 /* Olympia */ = {
 			isa = PBXGroup;
 			children = (
+				50A3E13B26A341AE000C69B7 /* HockeyMatch.swift */,
+				50A3E13A26A34129000C69B7 /* Structures */,
+				50A3E13626A33E01000C69B7 /* Data */,
+				50A3E13326A33CE4000C69B7 /* Views */,
 				50A3E11926A31FC1000C69B7 /* OlympiaApp.swift */,
 				50A3E11B26A31FC1000C69B7 /* ContentView.swift */,
 				50A3E11D26A31FC1000C69B7 /* Assets.xcassets */,
 				50A3E12226A31FC1000C69B7 /* Info.plist */,
 				50A3E11F26A31FC1000C69B7 /* Preview Content */,
+				50A3E14126A5CFF6000C69B7 /* UserData.swift */,
+				50A3E14326A5E534000C69B7 /* DataLoader.swift */,
+				50A3E13F26A5CFCF000C69B7 /* myData.json */,
 			);
 			path = Olympia;
 			sourceTree = "<group>";
@@ -67,6 +86,37 @@
 				50A3E12026A31FC1000C69B7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		50A3E13326A33CE4000C69B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				50A3E13426A33D6F000C69B7 /* SexView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		50A3E13626A33E01000C69B7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				50A3E13726A33E0C000C69B7 /* Hockey */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		50A3E13726A33E0C000C69B7 /* Hockey */ = {
+			isa = PBXGroup;
+			children = (
+				50A3E13826A3401C000C69B7 /* FemaleData.json */,
+			);
+			path = Hockey;
+			sourceTree = "<group>";
+		};
+		50A3E13A26A34129000C69B7 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A3E13926A3401C000C69B7 /* FemaleData.json in Resources */,
 				50A3E12126A31FC1000C69B7 /* Preview Assets.xcassets in Resources */,
+				50A3E14026A5CFCF000C69B7 /* myData.json in Resources */,
 				50A3E11E26A31FC1000C69B7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +190,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A3E14226A5CFF6000C69B7 /* UserData.swift in Sources */,
+				50A3E13C26A341AE000C69B7 /* HockeyMatch.swift in Sources */,
+				50A3E14426A5E534000C69B7 /* DataLoader.swift in Sources */,
 				50A3E11C26A31FC1000C69B7 /* ContentView.swift in Sources */,
+				50A3E13526A33D6F000C69B7 /* SexView.swift in Sources */,
 				50A3E11A26A31FC1000C69B7 /* OlympiaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

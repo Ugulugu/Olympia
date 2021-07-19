@@ -1,0 +1,16 @@
+[
+    {
+        "date": "17.07.2021",
+        "home": "Deutschland",
+        "away": "Niederlande",
+        "homeGoals": 1,
+        "awayGoals": 0
+    },
+    {
+        "date": "18.07.2021",
+        "home": "Deutschland",
+        "away": "Argentinien",
+        "homeGoals": 3,
+        "awayGoals": 0
+    }
+]

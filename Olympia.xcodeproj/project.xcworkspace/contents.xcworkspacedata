@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/max/Documents/XCode/Olympia/FemaleData.json">
+   </FileRef>
+   <FileRef
+      location = "group:../Olympia/Data/Hockey/FemaleData.json">
+   </FileRef>
+   <FileRef
       location = "self:">
    </FileRef>
 </Workspace>
